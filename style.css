@@ -1,0 +1,60 @@
+ /* Comentario no css */
+ /* 
+   SELECIONANDO ELEMENTOS HTML
+   
+   classe 
+   .nomeDaClasse
+
+   id
+   #nomeDoId
+
+   tag 
+   h1
+
+ */
+
+ /* [] colchete
+ {} chaves  */
+
+ // classe
+.titulo {
+    color: yellow;
+}
+
+#nome{
+      color: blue;
+}
+
+p{
+    color: grey;
+}
+
+// pseudo classes utilizamos :
+// utilizamos para estilizar o elemento quando o usuario interagir
+// de alguma forma com este elemento
+.link-facebook:active{
+    color: grey;
+}
+
+.link-w3:hover{
+    color: pink;
+}
+
+// pseudo elemento utilizamos ::
+// utilizamos para estilizar parte de um elemento
+#nome::first-letter{
+    color:red;
+}
+
+// linha/ row -> um elemento do lado do outro
+// coluna/ column -> um elemento embaixo do outro
+.divisao{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: pink;
+    justify-content: center;
+}
+
+
+ 
